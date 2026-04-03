@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# ML artifacts
+backend/ml_model/data/
+backend/ml_model/saved_model/
+backend/ml_model/saved_model2/
+backend/checkpoints/
+
+# Frontend/node (very important)
+node_modules/
+dist/
+build/
+
+# Logs & misc
+*.log
+
+# Environment
+venv/
+.env

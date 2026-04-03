@@ -1,0 +1,51 @@
+[
+  {
+    "paper": {
+      "authors": [
+        "Kaushik Rajashekara",
+        "Qingchun Wang",
+        "Kouki Matsuse"
+      ],
+      "doi": "10.1109/mele.2015.2509901",
+      "title": "Flying Cars: Challenges and Propulsion Strategies",
+      "venue": "IEEE Electrification Magazine",
+      "year": 2016
+    },
+    "issue": {
+      "type": "fabricated",
+      "description": "kjbscasz"
+    },
+    "user": {
+      "name": "Shubham ",
+      "email": "stayde1704@gmail.com",
+      "affiliation": null,
+      "role": null
+    },
+    "timestamp": "2026-03-16T18:08:25.017Z",
+    "server_timestamp": "2026-03-16T18:08:25.643215"
+  },
+  {
+    "paper": {
+      "authors": [
+        "William Melriz Pardede",
+        "Mohammad Adhitya"
+      ],
+      "doi": "10.1063/5.0003761",
+      "title": "Take off and landing performance analysis for a flying car model using wind tunnel test method",
+      "venue": "AIP Conference Proceedings",
+      "year": 2020
+    },
+    "issue": {
+      "type": "broken_link",
+      "description": "wertyu"
+    },
+    "user": {
+      "name": "Shubham",
+      "email": "stayde1704@gmail.com",
+      "affiliation": "VIT",
+      "role": "student"
+    },
+    "timestamp": "2026-04-01T06:55:38.962Z",
+    "server_timestamp": "2026-04-01T06:55:39.662237"
+  }
+]

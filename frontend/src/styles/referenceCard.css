@@ -1,0 +1,130 @@
+/* REFERENCE CARD */
+
+.reference-card {
+  display: flex;
+  background: #ffffff;
+  padding: 20px;
+  margin-bottom: 18px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: transform 0.15s ease;
+}
+
+.reference-card:hover {
+  transform: translateY(-2px);
+}
+
+/* OA ICON */
+
+.oa-indicator {
+  font-size: 20px;
+  margin-right: 14px;
+  display: flex;
+  align-items: flex-start;
+}
+
+/* CARD CONTENT */
+
+.card-content {
+  flex: 1;
+}
+
+.reference-card h3 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+}
+
+.reference-card div {
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #374151;
+}
+
+.reference-card a {
+  color: #2563eb;
+  word-break: break-all;
+}
+
+/* STATUS COLORS */
+
+.status {
+  margin-top: 12px;
+  font-weight: 600;
+}
+
+.status-valid {
+  border-left: 4px solid #16a34a;
+}
+
+.status-broken {
+  border-left: 4px solid #eab308;
+}
+
+.status-invalid_metadata {
+  border-left: 4px solid #dc2626;
+}
+
+/* CARD FOOTER */
+
+.card-footer {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bib-download {
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  background: #f9fafb;
+  cursor: pointer;
+}
+
+.bib-download:hover {
+  background: #f3f4f6;
+}
+
+/* ML RELEVANCE - SIMPLE COLOR CODING */
+
+.status-row {
+  display: flex;
+  gap: 15px;
+  margin-top: 12px;
+}
+
+.validation-status,
+.ml-status {
+  font-size: 14px;
+}
+
+/* CARD LEFT BORDER - ML Relevance */
+
+.reference-card.ml-ml_relevant {
+  border-left: 4px solid #10b981; /* Green */
+}
+
+.reference-card.ml-ml_less_relevant {
+  border-left: 4px solid #f59e0b; /* Yellow */
+}
+
+.reference-card.ml-ml_irrelevant {
+  border-left: 4px solid #ef4444; /* Red */
+}
+
+.reference-card.ml-pending {
+  border-left: 4px solid #9ca3af; /* Gray */
+}
+
+/* VALIDATION STATUS COLORS (for broken links) */
+
+.reference-card.status-broken {
+  border-right: 4px solid #9ca3af; /* Gray - broken link */
+}
+
+.reference-card.status-invalid_metadata {
+  border-right: 4px solid #9ca3af; /* Gray - invalid metadata */
+}
+
+

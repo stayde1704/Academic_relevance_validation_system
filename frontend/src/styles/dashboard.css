@@ -1,0 +1,116 @@
+/* DASHBOARD - TOP HEADER AND QUERY */
+
+.top-container {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 22px 26px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-text h1 {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.header-subtitle {
+  margin-top: 6px;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+/* QUERY INPUT */
+
+.query-input {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.query-input textarea {
+  width: 100%;
+  min-height: 70px;
+  padding: 12px;
+  font-size: 14px;
+  line-height: 1.5;
+  resize: vertical;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.query-input button {
+  width: 160px;
+  padding: 10px 14px;
+  font-size: 14px;
+  font-weight: 500;
+  align-self: flex-start;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  background: #2563eb;
+  color: white;
+}
+
+.query-input button:hover {
+  background: #1d4ed8;
+}
+
+/* MAIN LAYOUT */
+
+.main-layout {
+  display: grid;
+  grid-template-columns: 240px 1fr 260px;
+  gap: 24px;
+  align-items: start;
+  margin-top: 25px;
+}
+
+/* CENTER PANEL */
+
+.center-panel {
+  display: flex;
+  flex-direction: column;
+}
+
+/* RIGHT PANEL */
+
+.right-panel {
+  position: sticky;
+  top: 20px;
+  min-height: 300px;
+}
+
+/* METRICS PANEL */
+
+.metrics-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: #ffffff;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.metrics-panel h3 {
+  margin: 0 0 8px 0;
+}
+
+.metrics-panel div {
+  background: #f3f4f6;
+  padding: 8px 10px;
+  border-radius: 6px;
+}

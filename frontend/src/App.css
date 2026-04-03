@@ -1,0 +1,9 @@
+/* Import all modular CSS files */
+@import './styles/global.css';
+@import './styles/dashboard.css';
+@import './styles/filters.css';
+@import './styles/referenceCard.css';
+@import './styles/feedbackForm.css';
+@import './styles/feedbackPage.css';
+@import './styles/scroll.css';
+

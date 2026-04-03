@@ -1,0 +1,91 @@
+/* LEFT PANEL - FILTERS */
+
+.left-panel {
+  background: #ffffff;
+  padding: 18px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  position: sticky;
+  top: 20px;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.left-panel h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+/* FILTER SECTIONS */
+
+.filter-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.filter-section strong {
+  font-size: 14px;
+  color: #374151;
+}
+
+/* FILTER ITEMS */
+
+.filter-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #374151;
+  cursor: pointer;
+}
+
+.filter-item input {
+  cursor: pointer;
+}
+
+/* YEAR RANGE INPUTS */
+
+.filter-section input[type="number"] {
+  padding: 6px 8px;
+  font-size: 13px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.filter-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.apply-btn {
+  padding: 6px 12px;
+  font-size: 13px;
+  border: none;
+  border-radius: 5px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+.apply-btn:hover {
+  background: #1d4ed8;
+}
+
+.reset-btn {
+  padding: 6px 12px;
+  font-size: 13px;
+  border: 1px solid #d1d5db;
+  border-radius: 5px;
+  background: #f9fafb;
+  cursor: pointer;
+}
+
+.reset-btn:hover {
+  background: #f3f4f6;
+}
